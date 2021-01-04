@@ -5,7 +5,7 @@ public class Main {
         ArrayCalculations array=new ArrayCalculations();
         array.saveEvenNumbers(50);
         array.printEvenNumbers();
-        array.printEvenNumber(10);
+        array.printEvenNumber(11);
 
     }
 
