@@ -13,8 +13,8 @@ public class Main {
         array.reverseArray(array.getA1());
         array.reverseArray(array.getA2());
 
-        String input = "Quantiphi Bayer Radimetrics";
-        char[] tempArray = input.toCharArray();
+        String str = "Quantiphi Bayer Radimetrics";
+        char[] tempArray = str.toCharArray();
         int left, right = 0;
         right = tempArray.length - 1;
 
