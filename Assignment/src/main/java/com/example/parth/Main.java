@@ -13,6 +13,23 @@ public class Main {
         array.reverseArray(array.getA1());
         array.reverseArray(array.getA2());
 
+        String input = "Quantiphi Bayer Radimetrics";
+        char[] tempArray = input.toCharArray();
+        int left, right = 0;
+        right = tempArray.length - 1;
+
+        for (left = 0; left < right; left++) {
+            char temp = tempArray[left];
+            tempArray[left] = tempArray[right];
+            tempArray[right] = temp;
+            right--;
+        }
+
+        for (char c : tempArray)
+            System.out.print(c);
+
     }
 
 }
+
+
